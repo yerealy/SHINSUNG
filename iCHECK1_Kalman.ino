@@ -247,10 +247,6 @@ void display_main()
   tft.print("ml");
 }
 
-float value = 0.0f;
-float oldave_value = 999.0f;
-float ave_value = 0.0f; // current Measure
-
 
 void print_data()
 {
@@ -780,5 +776,3 @@ void loop()
 
   }// mtag end
 }
-
-
